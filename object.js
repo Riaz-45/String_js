@@ -87,3 +87,38 @@ for(const property in mobile){
     console.log(property, ':', mobile[property]);
     // console.log(mobile[property]);
 }
+
+
+// #task-1
+const colors = {
+    red: "#ff0000",
+    "golden rod": '#daa520',
+    physics: {
+        subject: "HSC Physics",
+        author: 'Shahjahan Tapan',
+        marks: 30
+    }
+}
+console.log(colors["golden rod"]);
+console.log(colors.physics.marks);
+
+
+// #task-2
+const car = {
+    make: "Toyota",
+    model: "Corolla",
+    year: 2020,
+    'passenger capacity': 5
+}
+console.log(car);
+
+
+// #task-3
+let myObject = {
+    name: 'rakibul hasan',
+    age: 25,
+    city: 'Dhaka',
+    isStudent: true
+}
+
+console.log(keys.myObject);
